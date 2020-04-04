@@ -10,6 +10,8 @@ The first line of the input contains the height of the bus and the number of bri
 
 You should output "Will not crash" if everything will be all right; otherwise, output "Will crash on bridge i" (where i is a number of a bridge) into which the bus will crash. If the height of a bridge equals the height of the bus, the bus will crash.
 
+##### [Notice Array is not allowed, that's why is tricky]
+
 ### Sample Input 1:
 
 *234 8*
@@ -29,6 +31,9 @@ You should output "Will not crash" if everything will be all right; otherwise, o
 Write a program that reads a sequence of integer numbers and outputs true if the sequence is ordered (in ascending or descending order), otherwise, false. Keep in mind, if a number has the same value as the following number, it does not break the order.
 
 The sequence ends with 0. Do not consider this number as a part of the sequence. The sequence always has at least one number (excluding 0).
+
+##### [Notice Array is not allowed, that's why is tricky]
+##### [No Sorting Algorithm is required.]
 
 ### Sample Input 1:
 
