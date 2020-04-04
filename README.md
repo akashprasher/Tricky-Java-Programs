@@ -12,15 +12,15 @@ You should output "Will not crash" if everything will be all right; otherwise, o
 
 ### Sample Input 1:
 
-*234 8
-465 453 981 463 1235 871 475 981*
+*234 8*
+*465 453 981 463 1235 871 475 981*
 ### Sample Output 1:
 
 *Will not crash*
 ### Sample Input 2:
 
-*211 5
-871 205 123 871 1681*
+*211 5*
+*871 205 123 871 1681*
 ### Sample Output 2:
 
 *Will crash on bridge 2*
