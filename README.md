@@ -1,7 +1,7 @@
 # Tricky-Java-Programs
 Sometimes we need very few things to apply in a program but the thing should be placed at right postion. In this repository I'm sharing simple but a bit tricky Java Programs.
 
-## Problem 1
+## Problem 1: Bus Tour 
 A bus tour of Europe has been very successful. Due to an increase in the number of people that want to go on a tour, the tour company decided to increase the height of the bus. The new height of the bus is exactly N centimeters.
 
 But the tour’s route runs under a lot of bridges, and there is a chance that the bus will crash into one of these bridges. Can you find out if this will happen?
@@ -25,4 +25,26 @@ You should output "Will not crash" if everything will be all right; otherwise, o
 
 *Will crash on bridge 2*
 
-###
+## Problem 2: The (un)-ordered sequence
+Write a program that reads a sequence of integer numbers and outputs true if the sequence is ordered (in ascending or descending order), otherwise, false. Keep in mind, if a number has the same value as the following number, it does not break the order.
+
+The sequence ends with 0. Do not consider this number as a part of the sequence. The sequence always has at least one number (excluding 0).
+
+### Sample Input 1:
+
+*9 8 7 6 5 4 3 2 1 0*
+### Sample Output 1:
+
+*true*
+### Sample Input 2:
+
+*1 2 3 3 9 0*
+### Sample Output 2:
+
+*true*
+### Sample Input 3:
+
+*1 2 5 5 2 3 0*
+### Sample Output 3:
+
+*false*
