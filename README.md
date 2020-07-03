@@ -1,6 +1,6 @@
 # Tricky-Java-Programs
 Sometimes we need very few things to apply in a program but the thing should be placed at right postion. In this repository I'm sharing simple but a bit tricky Java Programs.
-* *
+*Questions Source is, https://hyperskill.org*
 
 ## Problem 1: Bus Tour 
 A bus tour of Europe has been very successful. Due to an increase in the number of people that want to go on a tour, the tour company decided to increase the height of the bus. The new height of the bus is exactly N centimeters.
@@ -15,18 +15,18 @@ You should output "Will not crash" if everything will be all right; otherwise, o
 
 ### Sample Input 1:
 
-      *234 8*
-      *465 453 981 463 1235 871 475 981*
+      234 8
+      465 453 981 463 1235 871 475 981
 ### Sample Output 1:
 
-      *Will not crash*
+      Will not crash
 ### Sample Input 2:
 
-*211 5*
-*871 205 123 871 1681*
+     211 5
+     871 205 123 871 1681
 ### Sample Output 2:
 
-*Will crash on bridge 2*
+     Will crash on bridge 2
 
 ## Problem 2: The (un)-ordered sequence
 Write a program that reads a sequence of integer numbers and outputs true if the sequence is ordered (in ascending or descending order), otherwise, false. Keep in mind, if a number has the same value as the following number, it does not break the order.
@@ -38,22 +38,22 @@ The sequence ends with 0. Do not consider this number as a part of the sequence.
 
 ### Sample Input 1:
 
-*9 8 7 6 5 4 3 2 1 0*
+     9 8 7 6 5 4 3 2 1 0
 ### Sample Output 1:
 
-*true*
+     true
 ### Sample Input 2:
 
-*1 2 3 3 9 0*
+     1 2 3 3 9 0
 ### Sample Output 2:
 
-*true*
+     true
 ### Sample Input 3:
 
-*1 2 5 5 2 3 0*
+     1 2 5 5 2 3 0
 ### Sample Output 3:
 
-*false*
+     false
 
 ## Problem 3: Iterating over arrays.java
 Write a program that reads an unsorted array of integers and two numbers n and m. The program must check if n and m occur next to each other in the array (in any order).
