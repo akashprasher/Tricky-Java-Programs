@@ -84,7 +84,7 @@ Sample Output 2:
 
     false
     
-## Problem 3: The for-loop Grades
+## Problem 4: The for-loop Grades
 
 Find the number of D, C, B and A grades for the last test on informatics, where n students from a class have successfully passed the test.
 
@@ -110,7 +110,7 @@ The program should output four numbers in a single line: the number of D, C, B, 
 ### Sample Output 1:
       3 5 1 4
 
-## Problem 4: The longest ascending sequence
+## Problem 5: The longest ascending sequence
 Write a program that reads an array of ints and outputs the length of the longest sequence in strictly ascending order. Elements of the sequence must go one after another. A single number is assumed to be ordered sequence with the length = 1.
 
 ### Input data format
