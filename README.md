@@ -1,5 +1,6 @@
 # Tricky-Java-Programs
 Sometimes we need very few things to apply in a program but the thing should be placed at right postion. In this repository I'm sharing simple but a bit tricky Java Programs.
+* *
 
 ## Problem 1: Bus Tour 
 A bus tour of Europe has been very successful. Due to an increase in the number of people that want to go on a tour, the tour company decided to increase the height of the bus. The new height of the bus is exactly N centimeters.
@@ -14,11 +15,11 @@ You should output "Will not crash" if everything will be all right; otherwise, o
 
 ### Sample Input 1:
 
-*234 8*
-*465 453 981 463 1235 871 475 981*
+      *234 8*
+      *465 453 981 463 1235 871 475 981*
 ### Sample Output 1:
 
-*Will not crash*
+      *Will not crash*
 ### Sample Input 2:
 
 *211 5*
