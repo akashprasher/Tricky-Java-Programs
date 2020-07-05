@@ -154,3 +154,24 @@ On the input the program receives non-negative integers H, A, B, where H > B and
 ### Sample Output 2:
 
       5
+
+## Problem 7: Reversing Int-String
+Write a program that reads a three-digit number, calculates the new number by reversing its digits, and outputs a new number.
+*Please Check Input 1, You need to omit the value 0 is it comes in last of number.*
+
+### Sample Input 1:
+
+      320
+      
+### Sample Output 1:
+
+      23
+      
+### Sample Input 2:
+
+      976
+      
+### Sample Output 2:
+
+      679
+      
