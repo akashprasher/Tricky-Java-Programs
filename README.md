@@ -196,3 +196,31 @@ He is a very very good boy, isn't he?
       t
       he
 ###### *(Question source hackerrank.com)*
+
+### Problem 9: Check the clock time (Regex)
+For a given string you should check if it shows correct time or not. Correct time consists of two integers separated by a colon. The first integer must be from 00 to 23 and the second integer must be from 00 to 59.
+Output "YES" if the given string shows correct time, otherwise output "NO".
+### Sample Input 1:
+
+      09:00
+### Sample Output 1:
+
+      YES
+### Sample Input 2:
+
+      23:59
+### Sample Output 2:
+
+      YES
+### Sample Input 3:
+
+      24:00
+### Sample Output 3:
+
+      NO
+### Sample Input 4:
+
+      4:00
+### Sample Output 4:
+
+      NO
