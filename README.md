@@ -174,4 +174,25 @@ Write a program that reads a three-digit number, calculates the new number by re
 ### Sample Output 2:
 
       679
-      
+     
+## Problem 8: Java String Tokens
+Given a string, , matching the regular expression [A-Za-z !,?._'@]+, split the string into tokens. We define a token to be one or more consecutive English alphabetic letters. Then, print the number of tokens, followed by each token on a new line.
+
+Note: You may find the String.split method helpful in completing this challenge.
+### Sample Input
+
+He is a very very good boy, isn't he?
+### Sample Output
+
+      10
+      He
+      is
+      a
+      very
+      very
+      good
+      boy
+      isn
+      t
+      he
+###### *(Question source hackerrank.com)*
