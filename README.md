@@ -197,7 +197,7 @@ He is a very very good boy, isn't he?
       t
       he
 
-### Problem 9: Check the clock time (Regex)
+## Problem 9: Check the clock time (Regex)
 For a given string you should check if it shows correct time or not. Correct time consists of two integers separated by a colon. The first integer must be from 00 to 23 and the second integer must be from 00 to 59.
 Output "YES" if the given string shows correct time, otherwise output "NO".
 ### Sample Input 1:
@@ -224,3 +224,20 @@ Output "YES" if the given string shows correct time, otherwise output "NO".
 ### Sample Output 4:
 
       NO
+
+## Problem 10: Print - Overloading
+There is a method print(String arg). The method outputs the name and its argument (in " ", cause it's a string). The output format for the string argument "test":
+
+      print("test")
+Overload this method by writing a new method with the same name and two arguments: a string and an integer. The new method should print the name and both parameters, like:
+
+      print("test", 4)
+Do not remove the existing method!
+### Sample Input 1:
+
+      test
+      4
+### Sample Output 1:
+
+      print("test")
+      print("test", 4)
