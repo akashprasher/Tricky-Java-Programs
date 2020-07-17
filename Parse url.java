@@ -29,3 +29,37 @@ class Main {
         
     }
 }
+
+// An ALTernative Method below:
+
+import java.util.Scanner;
+
+// class Main {
+//     public static void main(String[] args) {
+//         Scanner scanner = new Scanner(System.in);
+//         String getUrl = scanner.nextLine();
+//         String[] splitString = getUrl.split("\\?");
+//         String[] mainDataString = splitString[1].split("&");
+//         int mainDataLength = mainDataString.length;
+//         String[] withRequiredSymbol = new String[mainDataLength];
+//         for (int i = 0; i < mainDataLength; i++) {
+//             withRequiredSymbol[i] = mainDataString[i].replace("=", " : ");
+//         }
+//         int checkLength;
+//         for (int i = 0; i < mainDataLength; i++) {
+//             checkLength = withRequiredSymbol[i].length();
+//             if (withRequiredSymbol[i].charAt(checkLength - 2) == ':') {
+//                 withRequiredSymbol[i] = withRequiredSymbol[i].replace(": ", ": not found");   
+//             }
+//         }
+//         for (String a : withRequiredSymbol) {
+//             System.out.println(a);   
+//         }
+//         for (int i = 0; i < mainDataLength; i++) {
+//             if (withRequiredSymbol[i].charAt(0) == 'p' && withRequiredSymbol[i].charAt(3) == 's') {
+//                 String password = withRequiredSymbol[i].replace("pass", "password");
+//                 System.out.println(password);
+//             }
+//         }
+//     }
+// }
